@@ -8,6 +8,7 @@ class olamundo(models.Model):
     _description = 'Exemplo olamundo de Sol González'
 
     name = fields.Char(string="Ola mundo, soy Sol")
+    campo1=fields.Text(string="Campo 1")
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
